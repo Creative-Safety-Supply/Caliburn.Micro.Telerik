@@ -9,7 +9,7 @@ using Telerik.Windows.Controls;
 
 namespace Examples.Conventions
 {
-	public class AppBootstrapper : Bootstrapper<IShell>
+	public class AppBootstrapper : BootstrapperBase
 	{
 		private CompositionContainer container;
 
